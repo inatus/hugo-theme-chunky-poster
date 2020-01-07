@@ -1,12 +1,12 @@
 # Single
 wordCount:
-    one: "{{ .Count }} letter"
-    other: "{{ .Count }} letters"
+    one: "{{ .Count }} 文字"
+    other: "{{ .Count }} 文字"
 
 readingTime:
-    one: "{{ .Count }} min read"
-    other: "{{ .Count }} mins read"
+    one: "所要時間 {{ .Count }} 分"
+    other: "所要時間 {{ .Count }} 分"
 
 # Author
 articles:
-    other: "Articles"
+    other: "記事"
